@@ -8,7 +8,7 @@ const Sidebar = ({ sidebarOpen }) => {
     <div
       className={cn(
         "fixed left-0 top-0 z-40 h-screen w-72 border-r bg-background transition-transform sm:translate-x-0",
-        sidebarOpen ? "translate-x-0" : "-translate-x-full"
+        sidebarOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
       )}
     >
       <ScrollArea className="h-full py-6">
